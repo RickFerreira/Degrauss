@@ -5,7 +5,7 @@ header {
   padding: 25px;
 }
 header form input[type=text] {
-  background: #FFF;
+  background: #fff5dd;
   width: 100%;
   border-radius: 100px;
   border: none;
@@ -20,24 +20,13 @@ header form button {
 header ul li {
   position: relative;
 }
-header ul li span.notificacao {
-  color: #FFF;
-  background: #00509d;
-  position: absolute;
-  top: -10px;
-  left: 5px;
-  font-size: 10px;
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
-}
 header ul li a {
   font-size: 16px;
   font-weight: bold;
   color: #343A40;
 }
 header ul li a svg {
-  font-size: 23px;
+  font-size: 25px;
 }
 header ul li a:hover {
   color: initial;
@@ -45,10 +34,10 @@ header ul li a:hover {
 
 nav.nav-produtos {
   background: #343A40;
-  color: #FFF;
+  color: #fff5dd;
 }
 nav.nav-produtos a {
-  color: #FFF;
+  color: #fff5dd;
 }
 nav.nav-produtos ul.nav li {
   position: relative;
@@ -94,7 +83,7 @@ nav.nav-produtos ul.nav li ul.nav li {
   background-size: cover;
   height: 105px;
   padding: 20px 60px;
-  color: #FFF;
+  color: #fff5dd;
 }
 .banners-promocionais-statico .banners-promocionais-statico-12x svg, .banners-promocionais-statico .banners-promocionais-statico-12x p,
 .banners-promocionais-statico .banners-promocionais-statico-todo-br svg,
@@ -170,13 +159,13 @@ nav.nav-produtos ul.nav li ul.nav li {
 footer {
   background: #343A40;
   padding: 25px 0;
-  color: #FFF;
+  color: #fff5dd;
 }
 footer a {
-  color: #FFF;
+  color: #fff5dd;
 }
 footer a:hover {
-  color: #FFF;
+  color: #fff5dd;
 }
 footer h4 {
   color: #FFC107;
@@ -9749,6 +9738,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 body {
+  background: #fff5dd;
   color: #343A40;
 }
 

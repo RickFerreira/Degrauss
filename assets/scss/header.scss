@@ -21,28 +21,13 @@ header{
   
     ul{
       li{
-        position: relative;
-        span.notificacao{
-          color: $branco;
-          background: $azul;
-          
-          position: absolute;
-          top: -10px;
-          left: 5px;
-  
-          font-size: 10px;
-          width: 15px;
-          height: 15px;
-  
-          border-radius: 100%;
-        }
-  
+        position: relative;  
         a{
           font-size:16px;
           font-weight: bold;
           color: $cor-secundaria;
           svg{
-            font-size: 23px;
+            font-size: 25px;
           }
   
           &:hover{
