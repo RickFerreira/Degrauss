@@ -33,7 +33,6 @@ header ul li a:hover {
 }
 
 nav.nav-produtos {
-  margin-bottom: 10px;
   background: #343A40;
   color: #fff5dd;
 }
@@ -68,6 +67,34 @@ nav.nav-produtos ul.nav li ul.nav li {
   padding: 10px 25px;
 }
 
+.avisos {
+  background: rgb(207, 207, 207);
+  margin-bottom: -16px;
+  padding: 5px;
+}
+
+.avisos strong {
+  color: #00509d;
+}
+
+.avisos p {
+  animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .banners-promocionais-statico {
   margin-top: 30px;
 }
@@ -191,8 +218,9 @@ footer ul li.ellipsis {
   header form {
     margin: 20px 0;
   }
-  #banners-promocionais {
-    display: none;
+  #banners-promocionais img {
+    transform: scale(1.2);
+    height: 150px;
   }
   .produtos-container img {
     width: 100%;

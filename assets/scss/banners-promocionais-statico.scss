@@ -2,7 +2,33 @@
     background-color: $cor;
     background-image: url($url-image);
   }
-  
+
+  .avisos{
+    background: rgb(207, 207, 207);
+    margin-bottom: -16px;
+    padding: 5px;
+  }
+  .avisos strong{
+    color: $azul;
+  }
+  .avisos p{
+    animation: animate 1.5s linear infinite;
+  }
+  @keyframes animate{
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    60%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
   .banners-promocionais-statico{
     margin-top: 30px;
   

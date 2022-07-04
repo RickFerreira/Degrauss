@@ -16,8 +16,9 @@
       }
     }
   
-    #banners-promocionais{
-      display: none;
+    #banners-promocionais img{
+      transform: scale(1.2);
+      height: 150px;
     }
   
     .produtos-container img{
