@@ -120,14 +120,13 @@ nav.nav-produtos ul.nav li ul.nav li {
   font-size: 19px;
   margin: 10px 0 0;
 }
-.produtos .produtos-container .produtos-itens .produtos-stars {
-  font-size: 10px;
-}
-.produtos .produtos-container .produtos-itens .produtos-stars svg {
-  fill: #FFC107;
-}
-.produtos .produtos-container .produtos-itens .produtos-preco {
+.produtos .produtos-container .produtos-preco {
   font-size: 16px;
+}
+.produtos .produtos-container .produtos-preco .produtos-preco-riscado {
+  opacity: 0.7;
+  font-weight: normal;
+  margin-right: 5px;
 }
 
 .produtos-compra figure {

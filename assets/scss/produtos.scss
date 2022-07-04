@@ -10,17 +10,17 @@
           font-size: 19px;
           margin: 10px 0 0;
         }
-  
-        .produtos-stars{
-          font-size: 10px;
-          svg{
-            fill: $amarelo;
-          }
-        }
-  
-        .produtos-preco{
-          font-size: 16px;
-        }
       }
+  
+      .produtos-preco{
+        font-size: 16px;
+        
+        .produtos-preco-riscado{
+            opacity: 0.7;
+            font-weight: normal;
+            margin-right: 5px;
+        }
+      }  
+      
     }
 }
