@@ -33,6 +33,7 @@ header ul li a:hover {
 }
 
 nav.nav-produtos {
+  margin-bottom: 10px;
   background: #343A40;
   color: #fff5dd;
 }
@@ -113,6 +114,12 @@ nav.nav-produtos ul.nav li ul.nav li {
 .produtos .produtos-container {
   margin: 30px 0;
 }
+.produtos .produtos-container .img-fluid {
+  border-radius: 16px;
+}
+.produtos .produtos-container .img-fluid:hover {
+  transform: scale(1.1);
+}
 .produtos .produtos-container .produtos-itens {
   color: #343A40;
 }
@@ -139,9 +146,6 @@ nav.nav-produtos ul.nav li ul.nav li {
 .produtos-compra .produtos-conteudo p {
   font-size: 16px;
 }
-.produtos-compra .produtos-preco .produtos-stars svg {
-  fill: #FFC107;
-}
 .produtos-compra .produtos-preco strong {
   font-size: 40px;
 }
@@ -151,7 +155,7 @@ nav.nav-produtos ul.nav li ul.nav li {
 .produtos-compra .produtos-preco form label {
   margin: 0;
 }
-.produtos-compra .produtos-preco .produtos-stars svg, .produtos-compra .produtos-preco strong span, .produtos-compra .produtos-preco form {
+.produtos-compra .produtos-preco .strong span, .produtos-compra .produtos-preco form {
   font-size: 16px;
 }
 
