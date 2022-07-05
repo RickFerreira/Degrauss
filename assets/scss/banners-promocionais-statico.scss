@@ -1,6 +1,7 @@
 @mixin banners-promocionais($cor, $url-image) {
     background-color: $cor;
     background-image: url($url-image);
+    
   }
 
   .avisos{
@@ -29,20 +30,25 @@
     }
   }
 
-  
+  .banners-promocionais-statico-esperanca:hover,
+  .banners-promocionais-statico-campina:hover{
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+
   .banners-promocionais-statico{
     margin-top: 30px;
   
-    .banners-promocionais-statico-12x{
-      @include banners-promocionais($azul, '../images/parcele-em-12x.jpg');
+    .banners-promocionais-statico-esperanca{
+      @include banners-promocionais($azul, '../img/banners/esperanca.jpg');
     }
   
-    .banners-promocionais-statico-todo-br{
-      @include banners-promocionais($azul, '../images/entrega-para-todo-brasil.jpg');
+    .banners-promocionais-statico-campina{
+      @include banners-promocionais($azul, '../img/banners/campina.jpg');
     } 
   
-    .banners-promocionais-statico-12x,
-    .banners-promocionais-statico-todo-br{
+    .banners-promocionais-statico-esperanca,
+    .banners-promocionais-statico-campina{
       background-size: cover;
       height: 105px;
       padding: 20px 60px;
@@ -52,14 +58,10 @@
         margin: 0;
         padding: 0;
       }
-  
-      svg{
-        font-size: 55px;
-      }
-  
+
       p{
         font-weight: 100;
-        font-size: 23px;
+        font-size: 24px;
         line-height: 110%;
         margin-left: 20px;
         strong{

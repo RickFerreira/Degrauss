@@ -95,43 +95,45 @@ nav.nav-produtos ul.nav li ul.nav li {
     opacity: 1;
   }
 }
+.banners-promocionais-statico-esperanca:hover,
+.banners-promocionais-statico-campina:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
 .banners-promocionais-statico {
   margin-top: 30px;
 }
-.banners-promocionais-statico .banners-promocionais-statico-12x {
+.banners-promocionais-statico .banners-promocionais-statico-esperanca {
   background-color: #00509d;
-  background-image: url("../images/parcele-em-12x.jpg");
+  background-image: url("../img/banners/esperanca.jpg");
 }
-.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+.banners-promocionais-statico .banners-promocionais-statico-campina {
   background-color: #00509d;
-  background-image: url("../images/entrega-para-todo-brasil.jpg");
+  background-image: url("../img/banners/campina.jpg");
 }
-.banners-promocionais-statico .banners-promocionais-statico-12x,
-.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+.banners-promocionais-statico .banners-promocionais-statico-esperanca,
+.banners-promocionais-statico .banners-promocionais-statico-campina {
   background-size: cover;
   height: 105px;
   padding: 20px 60px;
   color: #fff5dd;
 }
-.banners-promocionais-statico .banners-promocionais-statico-12x svg, .banners-promocionais-statico .banners-promocionais-statico-12x p,
-.banners-promocionais-statico .banners-promocionais-statico-todo-br svg,
-.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+.banners-promocionais-statico .banners-promocionais-statico-esperanca svg, .banners-promocionais-statico .banners-promocionais-statico-esperanca p,
+.banners-promocionais-statico .banners-promocionais-statico-campina svg,
+.banners-promocionais-statico .banners-promocionais-statico-campina p {
   margin: 0;
   padding: 0;
 }
-.banners-promocionais-statico .banners-promocionais-statico-12x svg,
-.banners-promocionais-statico .banners-promocionais-statico-todo-br svg {
-  font-size: 55px;
-}
-.banners-promocionais-statico .banners-promocionais-statico-12x p,
-.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+.banners-promocionais-statico .banners-promocionais-statico-esperanca p,
+.banners-promocionais-statico .banners-promocionais-statico-campina p {
   font-weight: 100;
-  font-size: 23px;
+  font-size: 24px;
   line-height: 110%;
   margin-left: 20px;
 }
-.banners-promocionais-statico .banners-promocionais-statico-12x p strong,
-.banners-promocionais-statico .banners-promocionais-statico-todo-br p strong {
+.banners-promocionais-statico .banners-promocionais-statico-esperanca p strong,
+.banners-promocionais-statico .banners-promocionais-statico-campina p strong {
   font-weight: bold;
 }
 
@@ -209,8 +211,13 @@ footer ul li.ellipsis {
 }
 
 @media (max-width: 375px) {
-  .banners-promocionais-statico .banners-promocionais-statico-12x p,
-.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+  .banners-promocionais-statico .banners-promocionais-statico-esperanca svg,
+.banners-promocionais-statico .banners-promocionais-statico-campina svg {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .banners-promocionais-statico .banners-promocionais-statico-esperanca p,
+.banners-promocionais-statico .banners-promocionais-statico-campina p {
     font-size: 14px;
   }
 }

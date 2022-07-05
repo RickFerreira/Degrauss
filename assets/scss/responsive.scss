@@ -1,7 +1,11 @@
 @media (max-width: 375px){
     .banners-promocionais-statico{
-      .banners-promocionais-statico-12x,
-      .banners-promocionais-statico-todo-br{
+      .banners-promocionais-statico-esperanca,
+      .banners-promocionais-statico-campina{
+        svg{
+          max-width: 30px;
+          max-height: 30px;
+        }
         p{
           font-size:14px;
         }
