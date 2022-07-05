@@ -30,12 +30,6 @@
     }
   }
 
-  .banners-promocionais-statico-esperanca:hover,
-  .banners-promocionais-statico-campina:hover{
-    opacity: 0.7;
-    transform: scale(1.05);
-  }
-
   .banners-promocionais-statico{
     margin-top: 30px;
   
@@ -53,6 +47,7 @@
       height: 105px;
       padding: 20px 60px;
       color: $branco;
+      margin-bottom: 10px;
   
       svg, p{
         margin: 0;
@@ -67,7 +62,11 @@
         strong{
           font-weight: bold;
         }
-      }
-      
+      } 
+    }
+    .banners-promocionais-statico-esperanca:hover,
+    .banners-promocionais-statico-campina:hover{
+      opacity: 0.7;
+      transform: scale(1.05);
     }
   }

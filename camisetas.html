@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Degrauss</title>
+    <title>Todos os produtos</title>
     <!--Favicons-->
     <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicons/apple-icon-60x60.png">
@@ -185,71 +185,15 @@
     </nav>
     <!-- main -->
     <main>
-        <!-- Avisos  -->
-        <section id="avisos" class="avisos">
-            <p class="text-center"><strong>Promoção </strong>do mês compre 3 regatas por apenas <strong>R$100,00</strong></p>
-        </section>
-
-        <!-- banner principal rotativo  -->
-        <section id="banners-promocionais" class="carousel slide" data-ride="carousel">
-        <!-- imagens -->
-            <article class="carousel-inner">
-                <!-- primeiro banner -->
-                <figure class="carousel-item active">
-                    <img src="./assets/img/banners/namorados.png" class="d-block w-100" alt="Banner lançamento dia dos namorados">
-                </figure>
-                <!-- segundo banner -->
-                <figure class="carousel-item">
-                    <img src="./assets/img/banners/inverno.png" class="d-block w-100" alt="Banner lançamento outono/inverno">
-                </figure>
-            </article>
-            <!-- primeiro banner -->
-            <a class="carousel-control-prev" href="#banners-promocionais" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <!-- segundo banner -->
-            <a class="carousel-control-next" href="#banners-promocionais" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </section>
-
-        <!-- Localização -->
-        <section class="container banners-promocionais-statico">
-            <!-- row -->
-            <section class="row">
-              <!-- banner -->
-              <article class="col-md-6">
-                <a class="banners-promocionais-statico-esperanca d-flex align-items-center" href="https://goo.gl/maps/AWEDEdSz6PnKG4Yv5">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                  </svg>
-                  <p>
-                    Loja<br>
-                    <strong>Esperança</strong>
-                  </p>
-                </a>
-              </article>
-      
-              <!-- banner -->
-              <article class="col-md-6">
-                
-                <a class="banners-promocionais-statico-campina d-flex align-items-center" href="https://goo.gl/maps/SuGwCqh62LjjiAYh9">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                  </svg>
-                  <p>
-                    Loja<br>
-                    <strong>Campina</strong>
-                  </p>
-                </a>
-              </article>
-            </section>
-        </section>
 
         <!-- container todos os produtos -->
         <section class="container produtos">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Todos os produtos</li>
+              </ol>
+            </nav>
             <!-- title -->
             <h1 class="text-center">Todos os produtos</h1>
     
@@ -383,11 +327,71 @@
                         </strong>
                     </article>
                 </a>
+
+                <!-- produto 3.1 -->
+                <a href="#" class="produtos-container col-md-3">
+                    <!-- imagem do produto -->
+                    <img src="./assets/img/feminino/8.png" class="img-fluid" alt="Vestido xadrez">
+        
+                        <!-- itens do produto -->
+                        <article class="produtos-itens">
+                        <!-- title produto -->
+                        <h2>Camisa floral</h2>
+                        <!-- preco -->
+                        <strong class="produtos-preco">
+                            <s class="produtos-preco-riscado">R$299,00</s> R$59,90
+                        </strong>
+                    </article>
+                </a>
+        
+                <!-- produto 3.2-->
+                <a href="#" class="produtos-container col-md-3">
+                    <!-- imagem do produto -->
+                    <img src="./assets/img/masculino/5.png" class="img-fluid" alt="Casaco branco com preto">
+        
+                    <!-- itens do produto -->
+                    <article class="produtos-itens">
+                        <!-- title produto -->
+                        <h2>Casaco cinza</h2>
+                        <!-- preco -->
+                        <strong class="produtos-preco">
+                            <s class="produtos-preco-riscado">R$299,00</s> R$159,90
+                        </strong>
+                    </article>
+                </a>
+        
+                <!-- produto 3.3-->
+                <a href="#" class="produtos-container col-md-3">
+                    <!-- imagem do produto -->
+                    <img src="./assets/img/feminino/6.png" class="img-fluid" alt="Vestido preto e dourado">
+        
+                        <!-- itens do produto -->
+                        <article class="produtos-itens">
+                        <!-- title produto -->
+                        <h2>Vestido preto e branco</h2>
+                        <!-- preco -->
+                        <strong class="produtos-preco">
+                            <s class="produtos-preco-riscado">R$299,00</s> R$259,90
+                        </strong>
+                    </article>
+                </a>
+
+                <!-- produtos 3.4-->
+                <a href="#" class="produtos-container col-md-3">
+                    <!-- imagem do produto -->
+                    <img src="./assets/img/masculino/8.png" class="img-fluid" alt="Vestido xadrez">
+        
+                        <!-- itens do produto -->
+                        <article class="produtos-itens">
+                        <!-- title produto -->
+                        <h2>Camisa xadrex preta</h2>
+                        <!-- preco -->
+                        <strong class="produtos-preco">
+                            <s class="produtos-preco-riscado">R$299,00</s> R$109,90
+                        </strong>
+                    </article>
+                </a>               
             </article>
-            <!-- listagem dos produtos -->
-            <div class="d-flex justify-content-center">
-            <a href="./camisetas.html" class="btn btn-warning col-md-2">VEJA MAIS</a>
-            </div>
         </section>
 
     </main>
