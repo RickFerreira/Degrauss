@@ -26,6 +26,7 @@ header ul li a {
   color: #343A40;
 }
 header ul li a svg {
+  margin-bottom: 7px;
   font-size: 25px;
 }
 header ul li a:hover {
@@ -214,6 +215,9 @@ footer ul li.ellipsis {
   .banners-promocionais-statico .banners-promocionais-statico-esperanca p,
 .banners-promocionais-statico .banners-promocionais-statico-campina p {
     font-size: 14px;
+  }
+  .avisos p {
+    font-size: 10px;
   }
 }
 @media (max-width: 767px) {

@@ -1,0 +1,40 @@
+{
+    "produtos" : [
+        {
+            "id": 1,
+            "nome" : "Camisa xadrez manga longa",
+            "precoOriginal" : "59.90",
+            "precoAtual" : "39.90",
+            "categoria" : "Camisa masculina",
+            "imagem" : "./assets/img/masculino/3.png",
+            "descricao" : "Camisa masculina xadrez, com manga longa e em tons de vermelho"
+        },
+        {
+            "id": 2,
+            "nome" : "Camisa branca",
+            "precoOriginal" : "59.90",
+            "precoAtual" : "39.90",
+            "categoria" : "Camisa masculina",
+            "imagem" : "./assets/img/masculino/3.png",
+            "descricao" : "Camisa masculina xadrez, com manga longa e em tons de vermelho"
+        },
+        {
+            "id": 3,
+            "nome" : "Camisa preta",
+            "precoOriginal" : "59.90",
+            "precoAtual" : "39.90",
+            "categoria" : "Camisa masculina",
+            "imagem" : "./assets/img/masculino/3.png",
+            "descricao" : "Camisa masculina xadrez, com manga longa e em tons de vermelho"
+        },
+        {
+            "id": 4,
+            "nome" : "Camisa azul",
+            "precoOriginal" : "59.90",
+            "precoAtual" : "39.90",
+            "categoria" : "Camisa masculina",
+            "imagem" : "./assets/img/masculino/3.png",
+            "descricao" : "Camisa masculina xadrez, com manga longa e em tons de vermelho"
+        }
+    ]
+}
