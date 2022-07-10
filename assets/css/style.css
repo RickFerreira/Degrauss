@@ -9795,6 +9795,23 @@ a.text-dark:focus, a.text-dark:hover {
   color: #00509d;
 }
 
+.atendente {
+  text-align: center;
+}
+.atendente img {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 100%;
+}
+.atendente p {
+  color: Black;
+  margin-top: 20px;
+}
+.atendente .botao-atendente {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 body {
   background: #fff5dd;
   color: #343A40;

@@ -7,3 +7,21 @@
       color: $azul;
     }
 }
+
+.atendente{
+  text-align: center;
+  img{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 100%;
+  }
+  p{
+    color: Black;
+    margin-top: 20px;
+  }
+  .botao-atendente{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+}
