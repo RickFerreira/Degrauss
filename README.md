@@ -33,6 +33,8 @@
 <br><br>
 
 <img src="https://cdn.discordapp.com/attachments/459871999943114762/998407614729830451/unknown.png" width="100%;" alt="Foto do site"/><br>
+<img src="https://cdn.discordapp.com/attachments/459871999943114762/998592711592525964/unknown.png" width="35%;" alt="Foto no celular"/><br>
+
 
 <br><br>
 
