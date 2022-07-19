@@ -2,7 +2,7 @@
  
  
  
-# loja Degrauss
+# Loja Degrauss
   
 <h4> Estou criando um site responsivo para uma loja de roupas, inicialmente utilizando HTML, CSS, Sass, Bootstrap e JS. Minha intenção é de estudar mais sobre web e responsividade. </h4>
     
@@ -51,6 +51,6 @@
   </tr>
 </table>
 
-[☝🏽 Voltar ao topo](#loja-Degrauss)<br>
+[☝🏽 Voltar ao topo](#Loja-Degrauss)<br>
 
 </div>
